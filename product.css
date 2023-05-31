@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.up-top{
+    position: fixed;
+    bottom: 8%;
+    display: none;
+    right: 0;
+    z-index: 99;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    background-position: -7px 0px;
+}
+.dorpdwon{
+display: inline-block;
+}
+.dorpbtn{
+    padding: 16px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+}
+.dorpdwon-product{
+    display: none;
+    position: absolute;
+    background:linear-gradient(120deg,red,orange,yellow,green,blue,indigo,violet);    min-width: 160px;
+    overflow: scroll;
+    height: 300px;
+}
+.dorpdwon-product a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dorpdwon-product a:hover{
+    background-color: red;
+}
+
+.dorpdwon:hover .dorpdwon-product{
+    display: block;
+}
+
+.dorpbtn:hover{
+    border-radius: 150px;
+    background:linear-gradient(120deg,red,orange,yellow,green,blue,indigo,violet);
+    transform: scale(1.1);
+}
+
+.parallax{
+    height:max-content;
+    width: 100%;
+    
+    
+}
+.page-title{
+   /* background: rgba(0, 0, 0, 0.5); */
+    text-align: center;
+    padding: 5px;
+    font-variant: small-caps;
+    font-size: 30vh;
+    font-size: 20vw;
+    font-family: fantasy;
+    letter-spacing: 15px;
+    color:red;
+}
+h1{
+    font-size: 50%;
+}
+.menu{
+    background:linear-gradient(120deg,red,orange,yellow,green,blue,indigo,violet);
+    text-align: center;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.menu ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li:hover{
+    background:linear-gradient(120deg,red,orange,yellow,green,blue,indigo,violet);
+    transform: scale(1.1);
+    border-radius: 150px;
+}
+
+.container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.items{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d47;
+    border-radius:50px 0 50px 0 ;
+    display: inline-block;
+}
+
+.items:hover{
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 0 10px 3px #134d47;
+}
+
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.images{
+    display: inline-block;
+    width : 200px;
+    
+}
+
+.item-images-size{
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.description{
+    margin: 20px;
+    text-align: center;
+    min-height: 100px;
+}
+
+.item-select{
+    margin: 10px 0 0 0;
+}
+
+.buynow-btn{
+    border: 1px solid #184d47;
+    background: #184d47;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.buynow-btn:hover{
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px 5px #5b8c5a inset;
+}
